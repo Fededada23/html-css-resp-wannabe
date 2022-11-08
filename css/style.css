@@ -143,7 +143,6 @@ img {
     .why-us{
         text-align: center;
         display: flex;
-        background-color: black;
     }
 }
 
@@ -160,6 +159,10 @@ img {
 
     .steps .col {
         width: 80%;
+    }
+
+    .why-us{
+        background-color: black;
     }
 
     .why-us .col-left .col-right {
