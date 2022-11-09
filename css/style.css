@@ -129,22 +129,11 @@ img {
  ************************************************/
 /*DESKTOP FIRST*/
 @media screen and (max-width: 768px){
-    .site-header{
-        margin-top: 3rem;
-        display: flex;
-        justify-content: center;
+   .container{
+    width: 100%;
+   }
     }
-    .text-center{
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }    
-    
-    .why-us{
-        text-align: center;
-        display: flex;
-    }
-}
+
 
 @media screen and (max-width: 480px){
     .row{
@@ -153,19 +142,25 @@ img {
     }
 
     .lessons .col {
-        width: 80%;
+        width: 100%;
 
     }  
 
     .steps .col {
-        width: 80%;
+        width: 100%;
     }
 
-    .why-us{
+    .why-us {
         background-color: black;
+        margin-bottom: 0;
+        padding-top: 40px;
     }
 
-    .why-us .col-left .col-right {
-        width: 80%;
+    .why-us .col-left .col-right .steps {
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
     }
 }    
